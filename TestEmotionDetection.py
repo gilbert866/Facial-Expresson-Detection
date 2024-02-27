@@ -19,7 +19,7 @@ print("Loaded model from disk")
 #cap = cv2.VideoCapture(0)
 
 #pass here your video
-cap = cv2.VideoCapture("/home/gilbert/Downloads/The_7_basic_emotions_Do_you_recognise_all_facial_expres_embYkODkzcs.mp4")
+cap = cv2.VideoCapture(0)
 
 while True:
     #Find haar cascade to draw bounding box around face
